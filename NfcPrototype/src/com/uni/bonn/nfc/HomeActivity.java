@@ -480,7 +480,9 @@ public class HomeActivity extends Activity implements ParseTagListener,
 				@Override
 				public void onCompletion(MediaPlayer arg0) {
 
-					showPinLyt();
+					if(!isMissionSuccess){
+						showPinLyt();
+					}
 				}
 			});
 			
@@ -496,12 +498,15 @@ public class HomeActivity extends Activity implements ParseTagListener,
 		}
 	}
 
+	private boolean isMissionSuccess = false;
+	
 	/**
 	 * Updates entered PIN status
 	 */
 	private void updateStatus() {
 		if (testPin(5, 5, 1)) {
 
+			isMissionSuccess = true;
 			String path = "android.resource://" + getPackageName() + "/"
 					+ R.raw.bike_lock;
 			hidePinLyt();
