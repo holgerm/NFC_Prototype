@@ -23,9 +23,16 @@ public final class R {
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
         public static final int splash_screen=0x7f020001;
+        public static final int wheel_bg=0x7f020002;
+        public static final int wheel_val=0x7f020003;
     }
     public static final class id {
-        public static final int banner=0x7f080001;
+        public static final int banner=0x7f080006;
+        public static final int ok=0x7f080005;
+        public static final int passw_1=0x7f080002;
+        public static final int passw_2=0x7f080003;
+        public static final int passw_3=0x7f080004;
+        public static final int pin_layout=0x7f080001;
         public static final int video_view=0x7f080000;
     }
     public static final class layout {
@@ -33,13 +40,19 @@ public final class R {
         public static final int splash_screen=0x7f030001;
     }
     public static final class raw {
-        public static final int five=0x7f040000;
-        public static final int four=0x7f040001;
-        public static final int one=0x7f040002;
-        public static final int seven=0x7f040003;
-        public static final int six=0x7f040004;
-        public static final int three=0x7f040005;
-        public static final int two=0x7f040006;
+        public static final int beer=0x7f040000;
+        public static final int beer_wrong=0x7f040001;
+        public static final int bike_lock=0x7f040002;
+        public static final int bike_lock_wrong=0x7f040003;
+        public static final int concert=0x7f040004;
+        public static final int concert_wrong=0x7f040005;
+        public static final int garden_key=0x7f040006;
+        public static final int garden_key_wrong=0x7f040007;
+        public static final int intro=0x7f040008;
+        public static final int map=0x7f040009;
+        public static final int map_wrong=0x7f04000a;
+        public static final int tunnel_match_candle=0x7f04000b;
+        public static final int tunnel_match_candle_wrong=0x7f04000c;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;
